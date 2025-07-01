@@ -1,0 +1,106 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+background: linear-gradient(to bottom, #0a0f2c 0%, #0a0f2c 50%, #050b1d 100%);
+
+ min-height:100vh;
+}
+.navbar{
+   background-color:rgb(11, 29, 54);
+   height:60px;
+   width:50%;
+   font-size: .85rem;
+   display:flex;
+   align-items: center;
+   justify-content: flex-start;
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+   gap:17%;
+   margin-top: 15px;
+   border-radius: 30px;
+   padding-left: 18px;
+   padding-top: 5px;;
+   color:aquamarine;
+}
+.nav-link{
+    text-decoration: none;
+    color: rgb(249, 250, 253);
+   
+}
+.box{
+    height:300px;
+    width:300px;
+    margin-left:35px;
+    margin-top:120px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    padding-top: 40px;
+    
+   
+  background: linear-gradient(
+    135deg,
+    rgba(15, 61, 87, 0.3),
+    rgba(15, 61, 87, 0.1)
+  );
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  color: white;
+}
+.box1{
+    height:300px;
+    width:800px;
+    margin-left:35px;
+    margin-top:120px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    padding-top: 40px;
+    
+   
+  background: linear-gradient(
+    135deg,
+    rgba(15, 61, 87, 0.3),
+    rgba(15, 61, 87, 0.1)
+  );
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  color: white;
+}
+.projects{
+   margin-bottom: auto;  
+}
+h1{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 90px;
+}
+.project1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 20px
+    ;
+}
+.project2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
